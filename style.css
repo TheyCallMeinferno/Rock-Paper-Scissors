@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+} 
+
+h1 {
+    background: #081b31;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    gap: 2rem;
+}
+
+
+.choices img {
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.choices img:hover {
+    transform: scale(1.1);
+}
+
+.score-board {
+    margin-top: 3rem;
+    font-size: 2rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+#user-score,
+#comp-score {
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.msg-container {
+    margin-top: 5rem;
+}
+#msg {
+    font-size: 2rem;
+    color: #ffff;
+    display: inline; 
+    background: #081b31;
+    padding: 1rem 2rem;
+    border-radius: 10px; 
+}
